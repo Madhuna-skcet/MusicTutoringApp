@@ -1,0 +1,65 @@
+.music-tutor-form-container {
+    background-image: url('https://png.pngtree.com/background/20231017/original/pngtree-creative-brain-jamming-3d-illustration-of-musical-notes-and-headphones-with-picture-image_5587968.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .music-tutor-form-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center; /* Align text center */
+  }
+  
+  .music-tutor-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    width: 150px; /* Fixed width for labels */
+    margin-right: 10px; /* Add spacing between label and input */
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  select,
+  textarea {
+    flex: 1; /* Fill remaining space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
